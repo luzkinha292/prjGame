@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Jogos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Menu superior -->
+    <header class="top-menu">
+        <button class="menu-btn" onclick="abrirMenu()">☰</button>
+        <h1 class="logo">Meus Jogos</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Pesquisar...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <!-- Menu lateral -->
+    <nav class="side-menu" id="sideMenu">
+        <button class="close-btn" onclick="fecharMenu()">✖</button>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="cadJogos.html"><i class="fas fa-plus"></i> Cadastrar Jogo</a></li>
+            <li><a href="pesquisar.html"><i class="fas fa-plus"></i> Pesquisar Jogo</a></li>
+            <li><a href="vitrine.html"><i class="fas fa-search"></i> Exibir Jogo</a></li> 
+            <li><a href="#"><i class="fas fa-cog"></i> Configurações</a></li>
+            <li><a href="#"><i class="fas fa-question-circle"></i> Ajuda</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="container">
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
